@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../products.css"; // 2-р хэсгийн CSS-ээ энд импортлоорой
+import "../products.css"; 
 
 const items = [
   { id: "1", title: "Premium Alloy Wheel", img: "product-img3.png" },

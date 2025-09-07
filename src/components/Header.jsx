@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Menu, Phone } from "lucide-react";
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
-import Sidebar from "./Sidebar"; // ← шинэ компонент
+import Sidebar from "./Sidebar"; 
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);

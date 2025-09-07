@@ -66,7 +66,6 @@ const Comments = () => {
         backgroundPosition: "center",
       }}
     >
-      {/* Heading */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-10 pt-12 sm:pt-14 md:pt-16 text-center">
         <p className="text-white text-3xl sm:text-4xl md:text-5xl font-semibold">
           Best in Business
@@ -76,7 +75,6 @@ const Comments = () => {
         </p>
       </div>
 
-      {/* Carousel */}
       <div className="mx-auto mt-8 sm:mt-10 md:mt-12 max-w-7xl px-4 sm:px-6 md:px-10">
         <Slider {...settings}>
           {comments.map((c, i) => (

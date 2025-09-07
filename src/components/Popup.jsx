@@ -21,7 +21,6 @@ export default function Popup({
   const [size, setSize] = useState(product.sizes?.[1] || "");
   const [qty, setQty] = useState(2);
 
-  // lock scroll when open
   useEffect(() => {
     if (!open) return;
     const prev = document.body.style.overflow;
